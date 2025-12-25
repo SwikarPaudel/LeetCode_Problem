@@ -1,7 +1,7 @@
 # Given an integer x, return true if x is a palindrome, and false otherwise.
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        s = x # save original number as s
+        s = x 
         reversed_num = 0 
          
         while x>0:
@@ -21,4 +21,5 @@ def main():
     print(result)
 
 if __name__ == "__main__":
+
     main()
