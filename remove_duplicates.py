@@ -1,3 +1,4 @@
+
 '''Given an integer array nums sorted in non-decreasing order,
 remove the duplicates in-place such that each unique element appears only once.'''
 
@@ -27,3 +28,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

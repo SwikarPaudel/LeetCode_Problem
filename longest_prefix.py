@@ -1,3 +1,4 @@
+
 """Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string "".
 """
@@ -18,6 +19,5 @@ def main():
     sol=Solution()
     result = sol.longestCommonPrefix(strs)
     print(result)
-
 if __name__ == "__main__":
     main()
