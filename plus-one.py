@@ -9,7 +9,7 @@ class Solution:
         return [1] + [0] * (len(digits))
 
 def main():
-    digits = [1,2,7,9]
+    digits = [1,3,2,9]
     sol = Solution()
     result = sol.plusOne(digits)
     print(result)
