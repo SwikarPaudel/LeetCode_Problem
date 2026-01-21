@@ -40,7 +40,7 @@ def build_linked_list(arr):
 
 def main():
 
-    l1_list = [5,4,3]
+    l1_list = [5,4,8,3]
     l2_list = [2,6,4]
 
     l1 = build_linked_list(l1_list)
