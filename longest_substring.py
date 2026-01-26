@@ -1,0 +1,25 @@
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        seen = {}
+        left = 0 
+        output = 0
+
+        for right in range(len(s)):
+            if s[right] not in seen:
+                output = max(output, right - left + +1)
+            else:
+                if seen[s[right]] < left:
+                    output = max(output, right - left + 1)
+                else:
+                    left = seen[s[right]] + 1
+            seen[s[right]] = right
+        return output
+        
+def main():
+    s = input("Enter a string: ")
+    sol = Solution()
+    result = sol.lengthOfLongestSubstring(s)
+    print(f"Final Output: {result}")
+    
+if __name__ == "__main__":
+    main()
