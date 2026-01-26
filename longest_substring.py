@@ -19,7 +19,7 @@ def main():
     s = input("Enter a string: ")
     sol = Solution()
     result = sol.lengthOfLongestSubstring(s)
-    print(f"Final Output: {result}")
-    
+    print(f"The length of longest substring of {s} : {result}")
+
 if __name__ == "__main__":
     main()
